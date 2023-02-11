@@ -1,0 +1,29 @@
+{
+  "name": "food_app",
+  "version": "1.0.0",
+  "description": "A food ordering app, built using react",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "janvi kundnani",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "install": "^0.13.0",
+    "npm": "^9.4.2",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.2.6"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.1"
+  }
+}
